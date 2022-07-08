@@ -4,7 +4,7 @@
 
 @layer components {
     .body {
-        @apply bg-gradient-to-tl from-slate-300 via-white to-slate-100 text-slate-800 dark:bg-black dark:text-slate-500;
+        @apply bg-gradient-to-tl from-slate-300 via-white to-slate-100 text-slate-800 dark:from-black dark:to-slate-900 dark:text-slate-500;
     }
 
     /***Global text-gradients***/
@@ -18,12 +18,16 @@
     }
 
     .navbar {
-        @apply flex items-center justify-center z-10 bg-gradient-to-t from-transparent to-white dark:to-slate-900 backdrop-blur-md text-2xl;
+        @apply flex items-center justify-center z-10 bg-gradient-to-t from-transparent to-transparent backdrop-blur-md text-xl xl:text-lg;
     }
 
     /**Navbar links**/
     .pill {
-        @apply my-2 py-2 px-2 hover:text-slate-500 dark:hover:text-slate-300 duration-100;
+        @apply my-2 py-2 px-2 hover:text-gradient hover:duration-300 ease-in-out;
+    }
+
+    .nav-link-extension {
+        @apply hidden xl:contents;
     }
 
     /**Categories**/
@@ -56,7 +60,7 @@
 
     /*Links*/
     .app-link {
-        @apply hover:text-gradient;
+        @apply hover:text-gradient hover:duration-300 hover:ease-in-out;
     }
 }
 
@@ -71,7 +75,12 @@ strong {
     font-family: 'Ubuntu mono', monospace;   
 }
 
+/* .home-div > h1 strong {
+    font-family: 'Inter', cursive;
+} */
+
 .cta-btn:hover {
+    transition: all .3s ease-in-out;
     border-image-source: linear-gradient(to bottom right, #22d3ee, #6638F0);
     border-image-slice: 1;
 }
