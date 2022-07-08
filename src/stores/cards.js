@@ -11,6 +11,7 @@ export const cardStore = defineStore({
         description:
           "A fictional desktop session of the Pokémon's Pr Chen. Imitating a Windows 11 like user interface, the project has been made using Vite, Vue.js, Pinia and Tailwind CSS.",
         appLink: "",
+        prefix: "",
         repo: "https://github.com/imStav/pokedesk",
       },
 
@@ -20,7 +21,8 @@ export const cardStore = defineStore({
           "https://raw.githubusercontent.com/imStav/tracking-rickandmorty/main/src/assets/screenshots/rickApi_preview.JPG",
         description:
           "Tracking Rick & Morty is a minimalistic app that aims to track the characters statuses of the TV show Rick & Morty.",
-        appLink: "https://tracking-rickandmorty.netlify.app/",
+        appLink: "tracking-rickandmorty.netlify.app",
+        prefix: "https://",
         repo: "https://github.com/imStav/tracking-rickandmorty",
       },
 
@@ -30,7 +32,8 @@ export const cardStore = defineStore({
           "https://raw.githubusercontent.com/imStav/abstract/main/abstract-wallpapers_preview.JPG",
         description:
           "Abstract is a static website that provides free wallpapers. All made by myself using Figma. Fully written in HTML5 and Tailwind CSS. The project is live, deployed with Netlify.",
-        appLink: "https://abstract-wallpapers.netlify.app/",
+          prefix: "https://",
+        appLink: "abstract-wallpapers.netlify.app",
         repo: "https://github.com/imStav/abstract",
       },
 
@@ -41,6 +44,7 @@ export const cardStore = defineStore({
         description:
           "DBZ JS for 'Dragon Ball FighterZ JavaScript', is a simple JS program that takes 2 random fighters, launches a brawl and return the winner by an alert.",
         appLink: "",
+        prefix: "",
         repo: "https://github.com/imStav/dbz-js",
       },
     },
