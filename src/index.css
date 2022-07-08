@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .body {
+        @apply bg-slate-300 text-slate-800 dark:bg-black dark:text-slate-500;
+    }
+
+    /***Navbar***/
+    .fixed-nav {
+        @apply fixed top-0 w-full;
+    }
+
+    .navbar {
+        @apply flex items-center justify-center z-10 bg-gradient-to-t from-transparent to-slate-900 backdrop-blur-md text-2xl;
+        /* scrollbar-color: transparent transparent; */
+    }
+
+    /**Navbar links**/
+    .pill {
+        @apply my-2 py-2 px-2 hover:text-slate-300 duration-100; /*border-b dark:border-slate-600*/
+    }
+
+    /**Categories**/
+    .category-heading {
+        @apply text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-indigo-500 w-fit tracking-widest;
+    }
+
+    .portfolio-section {
+        @apply w-10/12 sm:w-3/4 xl:w-1/2 mx-auto;
+    }
+
+    .portfolio-grid {
+        @apply grid md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-8 my-12;
+    }
+
+    .portfolio-card {
+        @apply px-4 py-4 border-l dark:border-slate-700 h-fit;
+    }
+
+    /**Buttons**/
+    .cta-btn {
+        @apply border border-slate-600 px-4 py-2 hover:text-slate-300 duration-100;
+    }
+
+    /*Links*/
+    .app-link {
+        @apply hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-cyan-500 to-indigo-500;
+    }
+}
+
+header {
+    margin-bottom: 15vh;
+}
+nav > * {
+    margin-inline: 1rem;
+}
+
+strong {
+    font-family: 'Ubuntu mono', monospace;   
+}
+
+.cta-btn:hover {
+    border-image-source: linear-gradient(to bottom right, #22d3ee, #6638F0);
+    border-image-slice: 1;
+}
