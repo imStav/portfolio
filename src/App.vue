@@ -21,14 +21,14 @@ import { RouterLink, RouterView } from "vue-router";
           <span class="nav-link-extension">About</span>
         </RouterLink>
 
-        <RouterLink
+        <!-- <RouterLink
           to="#"
           class="nav-link cursor-not-allowed"
           title="Contact page is under construction"
         >
           <i class="fa-solid fa-comment-dots"></i>
           <span class="nav-link-extension">Contact</span>
-        </RouterLink>
+        </RouterLink> -->
       </nav>
     </section>
   </header>

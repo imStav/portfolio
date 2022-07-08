@@ -23,8 +23,8 @@
       </p>
     </div>
 
-    <RouterLink to="/contact" class="cta-btn" title="Contact me">
+    <!-- <RouterLink to="#" class="cta-btn" title="Contact me">
       <i class="fa-solid fa-comment-dots"></i> Contact me
-    </RouterLink>
+    </RouterLink> -->
   </section>
 </template>
