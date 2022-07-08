@@ -26,13 +26,6 @@ import { RouterLink, RouterView } from "vue-router";
           <span class="nav-link-extension">Contact</span>
         </RouterLink>
       </nav>
-
-      <!-- <nav class="navbar">
-      <RouterLink to="/" class="pill">Home</RouterLink>
-      <RouterLink to="/portfolio" class="pill">Portfolio</RouterLink>
-      <RouterLink to="/about" class="pill">About</RouterLink>
-      <RouterLink to="/contact" class="pill">Contact</RouterLink>
-    </nav> -->
     </section>
   </header>
 

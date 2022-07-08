@@ -18,16 +18,16 @@
     }
 
     .navbar {
-        @apply flex items-center justify-center z-10 bg-gradient-to-t from-transparent to-transparent backdrop-blur-md text-xl xl:text-lg;
+        @apply flex items-center justify-center z-10 bg-gradient-to-b from-white/80 dark:from-transparent backdrop-blur-md text-xl xl:text-lg;
     }
 
     /**Navbar links**/
     .pill {
-        @apply my-2 py-2 px-2 hover:text-gradient hover:duration-300 ease-in-out;
+        @apply my-4 hover:text-gradient hover:duration-300 ease-in-out;
     }
 
     .nav-link-extension {
-        @apply hidden xl:contents;
+        @apply hidden xl:inline xl:mx-1;
     }
 
     /**Categories**/
@@ -67,6 +67,7 @@
 header {
     margin-bottom: 15vh;
 }
+
 nav > * {
     margin-inline: 1rem;
 }
@@ -74,10 +75,6 @@ nav > * {
 strong {
     font-family: 'Ubuntu mono', monospace;   
 }
-
-/* .home-div > h1 strong {
-    font-family: 'Inter', cursive;
-} */
 
 .cta-btn:hover {
     transition: all .3s ease-in-out;
