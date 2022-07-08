@@ -4,7 +4,7 @@ import CardTemplate from "@/components/CardTemplate.vue";
 
 <template>
   <section class="portfolio-section">
-    <h2 class="category-heading text-gradient">My Portfolio</h2>
+    <h2 class="category-heading">My Portfolio</h2>
 
     <div class="portfolio-grid">
       <CardTemplate />

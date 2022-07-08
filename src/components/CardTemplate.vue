@@ -5,7 +5,7 @@ const getCards = cardStore();
 
 <template>
   <div v-for="card in getCards.cards" class="portfolio-card">
-    <h2 class="text-xl font-semibold">{{ card.name }}</h2>
+    <h2 class="portfolio-card-heading">{{ card.name }}</h2>
 
     <div class="my-5">
       <img

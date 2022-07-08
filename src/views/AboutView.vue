@@ -2,10 +2,10 @@
 
 <template>
   <section class="about about-section">
-    <h2 class="category-heading text-gradient">About me</h2>
+    <h2 class="category-heading">About me</h2>
 
     <div class="about-grid">
-      <p class="px-4 border-l border-slate-400 dark:border-slate-700 h-fit">
+      <p class="about-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint
         vitae aliquid alias delectus voluptate! Minus earum possimus nisi modi!
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
@@ -16,7 +16,7 @@
         nam deleniti dolor, inventore laborum nisi sed.
       </p>
 
-      <p class="px-4 border-l border-slate-400 dark:border-slate-700 h-fit">
+      <p class="about-text">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut
         nulla perferendis optio cum temporibus harum molestiae officiis incidunt
         voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
@@ -24,10 +24,8 @@
       </p>
     </div>
 
-    <div class="flex mx-auto">
-      <RouterLink to="/contact" class="cta-btn" title="Contact me">
-        <i class="fa-solid fa-comment-dots"></i> Contact me
-      </RouterLink>
-    </div>
+    <RouterLink to="/contact" class="cta-btn" title="Contact me">
+      <i class="fa-solid fa-comment-dots"></i> Contact me
+    </RouterLink>
   </section>
 </template>

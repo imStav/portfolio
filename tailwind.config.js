@@ -3,7 +3,8 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      sans: ["Inter", "sans-serif"],
+      heading: ["Montserrat", "sans-serif"],
+      sans: ["Hind Siliguri", "sans-serif"],
       mono: ["Ubuntu Mono", "monospace"],
     },
     extend: {},

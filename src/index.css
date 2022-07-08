@@ -18,29 +18,26 @@
     }
 
     .navbar {
-        @apply flex items-center justify-center z-10 bg-gradient-to-b from-white/80 dark:from-transparent backdrop-blur-md text-xl xl:text-lg;
+        @apply flex items-center justify-center z-10 bg-gradient-to-b from-white/80 dark:from-transparent backdrop-blur-md font-heading text-xl xl:text-lg;
     }
 
-    /**Navbar links**/
-    .pill {
-        @apply my-4 hover:text-gradient hover:duration-300 ease-in-out;
+    /**Navbar elements**/
+    .nav-link {
+        @apply my-4 hover:text-gradient hover:duration-300 hover:ease-in-out;
     }
 
     .nav-link-extension {
         @apply hidden xl:inline xl:mx-1;
     }
 
-    /**Categories**/
-    .category-heading {
-        @apply text-3xl font-black w-fit tracking-widest;
-    }
-
+    /***Global views layout***/
     .home-section,
     .portfolio-section,
     .about-section {
         @apply w-10/12 sm:w-3/4 xl:w-1/2 mx-auto min-h-screen;
     }
 
+    /**PortfolioView**/
     .portfolio-grid {
         @apply grid md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-8 my-12;
     }
@@ -49,18 +46,32 @@
         @apply px-4 py-4 border-l border-slate-400 dark:border-slate-700 h-fit;
     }
 
+    .portfolio-card-heading {
+        @apply text-xl font-heading font-semibold;
+    }
+
+    /**AboutView**/
     .about-grid {
         @apply grid sm:grid-cols-2 gap-8 my-12;
     }
 
-    /**Buttons**/
+    .about-text {
+        @apply px-4 border-l border-slate-400 dark:border-slate-700 h-fit;
+    }
+
+    /**Categories**/
+    .category-heading {
+        @apply text-3xl font-heading font-black w-fit tracking-widest text-gradient;
+    }
+
+    /*Buttons*/
     .cta-btn {
-        @apply border border-slate-600 px-4 py-2 dark:hover:text-slate-300 hover:text-black duration-100;
+        @apply border border-slate-600 px-4 py-2 dark:hover:text-slate-300 hover:text-black;
     }
 
     /*Links*/
     .app-link {
-        @apply hover:text-gradient hover:duration-300 hover:ease-in-out;
+        @apply text-gradient xl:text-current hover:text-gradient hover:duration-300 hover:ease-in-out;
     }
 }
 
