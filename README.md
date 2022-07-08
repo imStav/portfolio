@@ -1,35 +1,20 @@
-# portfolio
+# My Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+## The project
 
-## Recommended IDE Setup
+This is my portfolio. It aims to provide a view on my work, side projects, skills, etc.
+It has been made using modern technologies such as **Vue 3** and **Tailwind CSS**.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Technologies
 
-## Customize configuration
+* 🔭 Vue.js (3.2.37)
+* ⚡ Vite (2.9.12)
+* 🍍 Pinia (2.0.14)
+* 🌈 Tailwind CSS (3.1.4)
+* ✨ ESLint & Prettier
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+*Find more information in the `package.json` file*
 
-## Project Setup
+### Thoughts
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+> I'll soon deploy my portfolio. It's still a work in progress.
