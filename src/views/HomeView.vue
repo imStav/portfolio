@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <main class="home-section">
+  <main class="home home-section">
     <div class="home-div">
       <h1 class="text-4xl font-bold">
         Hi! I am <strong class="text-5xl">Steven Averlant</strong>
