@@ -7,6 +7,11 @@
         @apply bg-slate-300 text-slate-800 dark:bg-black dark:text-slate-500;
     }
 
+    /***Global text-gradients***/
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-indigo-500;
+    }
+
     /***Navbar***/
     .fixed-nav {
         @apply fixed top-0 w-full;
@@ -19,12 +24,12 @@
 
     /**Navbar links**/
     .pill {
-        @apply my-2 py-2 px-2 hover:text-slate-300 duration-100; /*border-b dark:border-slate-600*/
+        @apply my-2 py-2 px-2 hover:text-slate-300 duration-100;
     }
 
     /**Categories**/
     .category-heading {
-        @apply text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-indigo-500 w-fit tracking-widest;
+        @apply text-3xl font-black w-fit tracking-widest;
     }
 
     .portfolio-section {
@@ -46,7 +51,7 @@
 
     /*Links*/
     .app-link {
-        @apply hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-cyan-500 to-indigo-500;
+        @apply hover:text-gradient;
     }
 }
 

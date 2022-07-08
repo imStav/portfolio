@@ -1,13 +1,13 @@
 <script setup>
-import Card from '@/components/Card.vue'
+import CardTemplate from "@/components/CardTemplate.vue";
 </script>
 
 <template>
-    <section class="portfolio-section">
-        <h2 class="category-heading">My Portfolio</h2>
+  <section class="portfolio-section">
+    <h2 class="category-heading text-gradient">My Portfolio</h2>
 
-        <div class="portfolio-grid">
-            <Card />
-        </div>
-    </section>
+    <div class="portfolio-grid">
+      <CardTemplate />
+    </div>
+  </section>
 </template>
