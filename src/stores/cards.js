@@ -20,7 +20,7 @@ export const cardStore = defineStore({
           "https://raw.githubusercontent.com/imStav/tracking-rickandmorty/main/src/assets/screenshots/rickApi_preview.JPG",
         description:
           "Tracking Rick & Morty is a minimalistic app that aims to track the characters statuses of the TV show Rick & Morty.",
-        appLink: "tracking-rickandmorty.netlify.app",
+        appLink: "https://tracking-rickandmorty.netlify.app/",
         repo: "https://github.com/imStav/tracking-rickandmorty",
       },
 
@@ -30,7 +30,7 @@ export const cardStore = defineStore({
           "https://raw.githubusercontent.com/imStav/abstract/main/abstract-wallpapers_preview.JPG",
         description:
           "Abstract is a static website that provides free wallpapers. All made by myself using Figma. Fully written in HTML5 and Tailwind CSS. The project is live, deployed with Netlify.",
-        appLink: "abstract-wallpapers.netlify.app",
+        appLink: "https://abstract-wallpapers.netlify.app/",
         repo: "https://github.com/imStav/abstract",
       },
 
