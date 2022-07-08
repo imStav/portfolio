@@ -10,7 +10,7 @@ export const cardStore = defineStore({
           "https://raw.githubusercontent.com/imStav/pokedesk/main/src/assets/screenshots/preview.JPG",
         description:
           "A fictional desktop session of the Pokémon's Pr Chen. Imitating a Windows 11 like user interface, the project has been made using Vite, Vue.js, Pinia and Tailwind CSS.",
-        appLink: "pokedesk.netlify.app",
+        appLink: "",
         repo: "https://github.com/imStav/pokedesk",
       },
 
@@ -40,7 +40,7 @@ export const cardStore = defineStore({
           "https://raw.githubusercontent.com/imStav/dbz-js/main/screenshots/dbz_js_preview.JPG",
         description:
           "DBZ JS for 'Dragon Ball FighterZ JavaScript', is a simple JS program that takes 2 random fighters, launches a brawl and return the winner by an alert.",
-        appLink: "abstract-wallpapers.netlify.app",
+        appLink: "",
         repo: "https://github.com/imStav/dbz-js",
       },
     },
