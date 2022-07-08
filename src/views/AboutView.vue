@@ -12,8 +12,7 @@
         blanditiis autem impedit a eveniet doloribus quam eligendi ut
         perferendis qui! Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Sapiente eaque numquam veniam, repudiandae distinctio atque
-        perferendis deleniti. Consectetur aut consequuntur, ut suscipit neque
-        nam deleniti dolor, inventore laborum nisi sed.
+        perferendis deleniti.
       </p>
 
       <p class="about-text">
