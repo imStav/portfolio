@@ -1,5 +1,24 @@
+<script setup>
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <section class="about about-section">
+      <h2 class="category-heading text-gradient">About me</h2>
+
+      <div class="about-grid">
+        <p class="px-4 border-l border-slate-400 dark:border-slate-700 h-fit">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint vitae aliquid alias delectus voluptate! Minus earum possimus nisi modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora blanditiis autem impedit a eveniet doloribus quam eligendi ut perferendis qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque numquam veniam, repudiandae distinctio atque perferendis deleniti. Consectetur aut consequuntur, ut suscipit neque nam deleniti dolor, inventore laborum nisi sed.
+        </p>
+
+        <p class="px-4 border-l border-slate-400 dark:border-slate-700 h-fit">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut nulla perferendis optio cum temporibus harum molestiae officiis incidunt voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eum facere dicta ipsa aperiam necessitatibus. Nam sit sunt qui suscipit.
+        </p>
+      </div>
+
+      <div class="flex mx-auto">
+        <RouterLink to="/contact" class="cta-btn" title="Contact me">
+          <i class="fa-solid fa-comment-dots"></i> Contact me
+        </RouterLink>
+      </div>
+  </section>
 </template>

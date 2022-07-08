@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <main class="flex h-[60vh] justify-center items-center">
+  <main class="home-section">
     <div class="flex flex-col items-center">
       <h1 class="text-4xl font-bold">
         Hi! I am <strong class="text-5xl">Steven Averlant</strong>

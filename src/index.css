@@ -4,7 +4,7 @@
 
 @layer components {
     .body {
-        @apply bg-slate-300 text-slate-800 dark:bg-black dark:text-slate-500;
+        @apply bg-gradient-to-tl from-slate-300 via-white to-slate-100 text-slate-800 dark:bg-black dark:text-slate-500;
     }
 
     /***Global text-gradients***/
@@ -18,7 +18,7 @@
     }
 
     .navbar {
-        @apply flex items-center justify-center z-10 bg-gradient-to-t from-transparent to-slate-200 dark:to-slate-900 backdrop-blur-md text-2xl;
+        @apply flex items-center justify-center z-10 bg-gradient-to-t from-transparent to-white dark:to-slate-900 backdrop-blur-md text-2xl;
     }
 
     /**Navbar links**/
@@ -31,8 +31,10 @@
         @apply text-3xl font-black w-fit tracking-widest;
     }
 
-    .portfolio-section {
-        @apply w-10/12 sm:w-3/4 xl:w-1/2 mx-auto;
+    .home-section,
+    .portfolio-section,
+    .about-section {
+        @apply w-10/12 sm:w-3/4 xl:w-1/2 mx-auto min-h-screen;
     }
 
     .portfolio-grid {
@@ -41,6 +43,10 @@
 
     .portfolio-card {
         @apply px-4 py-4 border-l border-slate-400 dark:border-slate-700 h-fit;
+    }
+
+    .about-grid {
+        @apply grid sm:grid-cols-2 gap-8 my-12;
     }
 
     /**Buttons**/
