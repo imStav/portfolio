@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterView } from "vue-router";
+</script>
 
 <template>
   <main class="home home-section">
@@ -11,4 +13,6 @@
       </p>
     </div>
   </main>
+
+  <RouterView />
 </template>

@@ -1,5 +1,5 @@
 <script setup>
-import { cardStore } from "@/stores/cards";
+import { cardStore } from "../stores/cards";
 const getCards = cardStore();
 </script>
 

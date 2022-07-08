@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterView } from "vue-router";
+</script>
 
 <template>
   <section class="about about-section">
@@ -27,4 +29,6 @@
       <i class="fa-solid fa-comment-dots"></i> Contact me
     </RouterLink> -->
   </section>
+
+  <RouterView />
 </template>
