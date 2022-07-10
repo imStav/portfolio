@@ -11,7 +11,7 @@ const getCards = cardStore();
       <img
         :src="card.preview"
         :title="`${card.name} preview`"
-        alt="failed to load"
+        :alt="`${card.name} preview`"
       />
       <p class="my-3 tracking-wide">{{ card.description }}</p>
       <a

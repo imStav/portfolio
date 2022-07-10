@@ -7,7 +7,9 @@ import AboutMe from "../components/AboutMe.vue";
   <section class="about about-section">
     <h2 class="category-heading">About me</h2>
 
-    <AboutMe />
+    <div class="about-grid">
+      <AboutMe />
+    </div>
   </section>
 
   <RouterView />
