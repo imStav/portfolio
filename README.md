@@ -20,6 +20,9 @@ It has been made using modern technologies such as **Vue 3** and **Tailwind CSS*
   <img alt="Portfolio preview in light and dark color mode." src="/src/assets/screenshots/portfolio_light_preview.JPG">
 </picture>
 
+### Visit my portfolio
+[steven-averlant.netlify.app](https://steven-averlant.netlify.app/)
+
 ### Thoughts
 
-> I'll soon deploy my portfolio. It's still a work in progress.
+> Even if my portfolio is deployed, at the moment it's still a work in progress.
