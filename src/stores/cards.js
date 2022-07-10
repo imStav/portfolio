@@ -32,7 +32,7 @@ export const cardStore = defineStore({
           "https://raw.githubusercontent.com/imStav/abstract/main/abstract-wallpapers_preview.JPG",
         description:
           "Abstract is a static website that provides free wallpapers. All made by myself using Figma. Fully written in HTML5 and Tailwind CSS. The project is live, deployed with Netlify.",
-          prefix: "https://",
+        prefix: "https://",
         appLink: "abstract-wallpapers.netlify.app",
         repo: "https://github.com/imStav/abstract",
       },

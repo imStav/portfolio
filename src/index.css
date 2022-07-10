@@ -56,7 +56,7 @@
     }
 
     .about-text {
-        @apply px-4 border-l border-slate-400 dark:border-slate-700 h-fit;
+        @apply tracking-wide px-4 border-l border-slate-400 dark:border-slate-700 h-fit;
     }
 
     /**Categories**/
@@ -85,6 +85,11 @@ nav > * {
 
 strong {
     font-family: 'Ubuntu mono', monospace;   
+}
+
+.about-grid p::first-letter {
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .cta-btn:hover {

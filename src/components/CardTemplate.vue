@@ -13,8 +13,11 @@ const getCards = cardStore();
         :title="`${card.name} preview`"
         alt="failed to load"
       />
-      <p class="my-3">{{ card.description }}</p>
-      <a :href="`${card.prefix}${card.appLink}`" class="app-link font-mono my-3">
+      <p class="my-3 tracking-wide">{{ card.description }}</p>
+      <a
+        :href="`${card.prefix}${card.appLink}`"
+        class="app-link font-mono my-3"
+      >
         <i class="fa-solid fa-link"></i>
         {{ card.appLink }}
       </a>
