@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       heading: ["Montserrat", "sans-serif"],
-      sans: ["Hind Siliguri", "sans-serif"],
+      sans: ["Mandali", "sans-serif"],
       mono: ["Ubuntu Mono", "monospace"],
     },
     extend: {},
