@@ -18,7 +18,7 @@ export const cardStore = defineStore({
       rickandmorty: {
         name: "Tracking Rick & Morty",
         preview:
-          "https://github.com/imStav/tracking-rickandmorty/blob/main/src/assets/screenshots/tracking-rickandmorty_preview.png",
+          "https://raw.githubusercontent.com/imStav/tracking-rickandmorty/main/src/assets/screenshots/tracking-rickandmorty_preview.png",
         description:
           "Tracking Rick & Morty is a minimalistic app that aims to track the characters statuses of the TV show Rick & Morty.",
         appLink: "tracking-rickandmorty.netlify.app",
