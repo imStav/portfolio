@@ -32,7 +32,7 @@
 
       <code>
         <ul class="text-gradient my-4 w-fit">
-          <li>Symfony 6</li>
+          <li>Symfony</li>
           <li>Python 3</li>
           <li>SQL</li>
         </ul>
