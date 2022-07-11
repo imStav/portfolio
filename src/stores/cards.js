@@ -7,7 +7,7 @@ export const cardStore = defineStore({
       pokedesk: {
         name: "Pokedesk",
         preview:
-          "/src/assets/screenshots/pokedesk_dark_preview.png",
+          "https://raw.githubusercontent.com/imStav/pokedesk/main/src/assets/screenshots/pokedesk_dark_preview.png",
         description:
           "A fictional desktop session of the Pokémon's Pr Chen. Imitating a Windows 11 like user interface, the project has been made using Vite, Vue.js, Pinia and Tailwind CSS.",
         appLink: "",
@@ -18,7 +18,7 @@ export const cardStore = defineStore({
       rickandmorty: {
         name: "Tracking Rick & Morty",
         preview:
-          "/src/assets/screenshots/tracking-rickandmorty_preview.png",
+          "https://raw.githubusercontent.com/imStav/tracking-rickandmorty/main/src/assets/screenshots/tracking-rickandmorty_preview.png",
         description:
           "Tracking Rick & Morty is a minimalistic app that aims to track the characters statuses of the TV show Rick & Morty.",
         appLink: "tracking-rickandmorty.netlify.app",
@@ -29,7 +29,7 @@ export const cardStore = defineStore({
       abstract: {
         name: "Abstract",
         preview:
-          "/src/assets/screenshots/abstract_dark_preview.png",
+          "https://raw.githubusercontent.com/imStav/abstract/main/abstract-wallpapers_preview.JPG",
         description:
           "Abstract is a static website that provides free wallpapers. All made by myself using Figma. Fully written in HTML5 and Tailwind CSS. The project is live, deployed with Netlify.",
         prefix: "https://",
