@@ -40,7 +40,7 @@ export const cardStore = defineStore({
       dbz: {
         name: "DBZ JS",
         preview:
-          "/src/assets/screenshots/dbz-js_preview.png",
+          "https://raw.githubusercontent.com/imStav/dbz-js/main/screenshots/dbz_js_preview.JPG",
         description:
           "DBZ JS for 'Dragon Ball FighterZ JavaScript', is a simple JS program that takes 2 random fighters, launches a brawl and return the winner by an alert.",
         appLink: "",
