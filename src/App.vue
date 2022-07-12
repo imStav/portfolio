@@ -4,6 +4,9 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
+    <!-- The nav <section> is fixed to top, but the <nav> block 
+    itself inside is flex sensitive. Also, the 'nav-links-extension' 
+    are not displayed in mobile and tablet layout -->
     <section class="fixed-nav">
       <nav class="navbar">
         <RouterLink to="/" class="nav-link" title="Home">
