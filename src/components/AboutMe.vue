@@ -4,7 +4,7 @@
       Hi there! My name is Steven Averlant (or Stav on the Internet). I am 25
       years old and currently living in France. I've learned front-end web
       development mostly by myself and followed an IT cursus at Pop School then
-      (a web developer "school" located in the North of the France)
+      (a web developer "school" located in the North of the France).
     </p>
 
     <p>
