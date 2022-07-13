@@ -25,6 +25,7 @@
           <li>Pinia</li>
           <li>Tailwind CSS</li>
           <li>SCSS / SASS</li>
+          <li>Git & Github</li>
         </ul>
       </code>
 
