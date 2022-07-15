@@ -25,4 +25,4 @@ It has been made using modern technologies such as **Vue 3** and **Tailwind CSS*
 
 ### Thoughts
 
-> Even if my portfolio is deployed, at the moment it's still a work in progress.
+> Even if my portfolio is deployed, at the moment it's still a work in progress. I'll nearly add i18n.
