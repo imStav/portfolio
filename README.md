@@ -1,4 +1,4 @@
-# My Portfolio
+# My Portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/4759f042-222c-4bfd-a86e-f3c1e0e5984c/deploy-status)](https://app.netlify.com/sites/steven-averlant/deploys)
 
 ## The project
 
