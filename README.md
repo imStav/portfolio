@@ -2,8 +2,7 @@
 
 ## The project
 
-This is my portfolio. It aims to provide a view on my work, side projects, skills, etc.
-It has been made using modern technologies such as **Vue 3** and **Tailwind CSS**.
+This is my personal portfolio. It aims to provide a view on my work, side projects, skills, etc. It has been made using modern technologies such as **Vue 3** and **Tailwind CSS**.
 
 ### Technologies
 
@@ -12,6 +11,7 @@ It has been made using modern technologies such as **Vue 3** and **Tailwind CSS*
 * 🍍 Pinia (2.0.14)
 * 🌈 Tailwind CSS (3.1.4)
 * ✨ ESLint & Prettier
+* 🛰️ Netlify
 
 *Find more information in the `package.json` file*
 
