@@ -43,10 +43,21 @@ export const cardStore = defineStore({
           "https://raw.githubusercontent.com/imStav/dbz-js/main/screenshots/dbz_js_preview.JPG",
         description:
           "DBZ JS for 'Dragon Ball FighterZ JavaScript', is a simple JS program that takes 2 random fighters, launches a brawl and return the winner by an alert.",
-        appLink: "",
         prefix: "",
+        appLink: "",
         repo: "https://github.com/imStav/dbz-js",
       },
+
+      undefined: {
+        name: "Pop School undefined",
+        preview:
+          "https://raw.githubusercontent.com/imStav/popschool-undefined/main/assets/pop-undefined_preview.png",
+        description:
+          "A little Vanilla JavaScript project that just aims to introduce my current Pop School class composition. Made using a dedicated API. #undefined",
+        prefix: "https://",
+        appLink: "pop-undefined.netlify.app",
+        repo: "https://github.com/imStav/popschool-undefined",
+      }
     },
   }),
 });
