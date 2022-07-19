@@ -23,6 +23,8 @@
           <li>Vue.js (v3)</li>
           <li>Vite</li>
           <li>Pinia</li>
+          <li>Vanilla JavaScript</li>
+          <li>TypeScript (currently learning)</li>
           <li>Tailwind CSS</li>
           <li>SCSS / SASS</li>
           <li>Git & Github</li>
