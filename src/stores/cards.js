@@ -29,9 +29,9 @@ export const cardStore = defineStore({
       abstract: {
         name: "Abstract",
         preview:
-          "https://raw.githubusercontent.com/imStav/abstract/main/abstract-wallpapers_preview.JPG",
+          "https://raw.githubusercontent.com/imStav/abstract/main/src/assets/screenshots/abstract_dark_preview.JPG",
         description:
-          "Abstract is a static website that provides free wallpapers. All made by myself using Figma. Fully written in HTML5 and Tailwind CSS. The project is live, deployed with Netlify.",
+          "Abtract is a small web app that provides free wallpapers i've made with Figma. This new version is based on Vue 3 and Tailnd CSS.",
         prefix: "https://",
         appLink: "abstract-wallpapers.netlify.app",
         repo: "https://github.com/imStav/abstract",
