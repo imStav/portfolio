@@ -25,4 +25,4 @@ This is my personal portfolio. It aims to provide a view on my work, side projec
 
 ### Thoughts
 
-> Even if my portfolio is deployed, at the moment it's still a work in progress. I'll nearly add i18n.
+> Even if my portfolio is deployed, at the moment it's still a work in progress. I'll nearly add i18n, and connect with github api to retrieve data automatically.
