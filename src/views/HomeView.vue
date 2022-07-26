@@ -3,7 +3,7 @@
 
 <template>
   <main class="home home-section">
-    <div class="-mt-36 text-center" v-motion-pop-visible>
+    <div class="-mt-36 text-center" v-motion-pop>
       <h1 class="text-4xl font-bold">
         Hi! I am
         <strong class="text-5xl text-gradient font-heading"
