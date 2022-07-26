@@ -1,10 +1,9 @@
 <script setup>
-import { RouterView } from "vue-router";
 </script>
 
 <template>
   <main class="home home-section">
-    <div class="-mt-36 text-center">
+    <div class="-mt-36 text-center" v-motion-pop-visible>
       <h1 class="text-4xl font-bold">
         Hi! I am
         <strong class="text-5xl text-gradient font-heading"
@@ -16,7 +15,7 @@ import { RouterView } from "vue-router";
         <strong class="text-gradient font-heading">Front-End</strong> developer
       </p>
     </div>
-  </main>
 
-  <RouterView />
+    <RouterLink to="/portfolio" class="cta-btn my-8">Check my projects</RouterLink>
+  </main>
 </template>

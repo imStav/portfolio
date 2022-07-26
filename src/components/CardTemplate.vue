@@ -6,7 +6,7 @@ const getCards = cardStore();
 <template>
   <!-- This code generate a collection of cards 
   retrieving data from the sotre using o for loop on it -->
-  <div v-for="card in getCards.cards" class="portfolio-card">
+  <div v-for="card in getCards.cards" class="portfolio-card" v-motion-pop-visible>
     <h2 class="portfolio-card-heading">{{ card.name }}</h2>
 
     <div class="my-5">

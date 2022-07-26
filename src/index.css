@@ -14,7 +14,7 @@
 
     /***Navbar***/
     .fixed-nav {
-        @apply fixed top-0 w-full;
+        @apply fixed top-0 w-full z-10;
     }
 
     .navbar {
@@ -32,7 +32,7 @@
 
     /***Global views layout***/
     .home-section {
-        @apply flex justify-center items-center w-10/12 sm:w-3/4 xl:w-1/2 mx-auto h-[85vh];
+        @apply flex flex-col justify-center items-center w-10/12 sm:w-3/4 xl:w-1/2 mx-auto h-[85vh];
     }
 
     .portfolio-section,
@@ -83,6 +83,11 @@
     .app-link {
         @apply text-gradient xl:text-current hover:text-gradient hover:duration-300 hover:ease-in-out;
     }
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 4rem;
 }
 
 header {

@@ -1,5 +1,4 @@
 <script setup>
-import { RouterView } from "vue-router";
 import AboutMe from "../components/AboutMe.vue";
 </script>
 
@@ -7,10 +6,8 @@ import AboutMe from "../components/AboutMe.vue";
   <section class="about about-section">
     <h2 class="category-heading">About me</h2>
 
-    <div class="about-grid">
+    <div class="about-grid" v-motion-pop-visible>
       <AboutMe />
     </div>
   </section>
-
-  <RouterView />
 </template>

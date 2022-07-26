@@ -1,5 +1,4 @@
 <script setup>
-import { RouterView } from "vue-router";
 import CardTemplate from "../components/CardTemplate.vue";
 </script>
 
@@ -11,6 +10,4 @@ import CardTemplate from "../components/CardTemplate.vue";
       <CardTemplate />
     </div>
   </section>
-
-  <RouterView />
 </template>
