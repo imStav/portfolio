@@ -108,3 +108,19 @@ nav > * {
     border-image-source: linear-gradient(to bottom right, #22d3ee, #6638F0);
     border-image-slice: 1;
 }
+
+@media (prefers-color-scheme: light) {
+    @supports not (backdrop-filter: blur()) {
+        .navbar {
+            background-image: linear-gradient(to left, #cbd5e1e0, white);
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    @supports not (backdrop-filter: blur()) {
+        .navbar {
+            background-image: linear-gradient(to left, #0f172ae0, black);
+        }
+    }
+}
