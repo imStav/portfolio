@@ -16,8 +16,8 @@ This is my personal portfolio. It aims to provide a view on my work, side projec
 *Find more information in the `package.json` file*
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/src/assets/screenshots/portfolio_dark_preview.JPG">
-  <img alt="Portfolio preview in light and dark color mode." src="/src/assets/screenshots/portfolio_light_preview.JPG">
+  <source media="(prefers-color-scheme: dark)" srcset="/src/assets/screenshots/portfolio_dark_preview.png">
+  <img alt="Portfolio preview in light and dark color mode." src="/src/assets/screenshots/portfolio_light_preview.png">
 </picture>
 
 ### Visit my portfolio
