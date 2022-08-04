@@ -29,14 +29,15 @@ const getCards = cardStore();
       >
         <!-- If there's no link for an app in the store, it will 
         not show the link's icon, so it's not confusing in the UI -->
-        <i v-if="card.appLink" class="fa-solid fa-link"></i>
+        <font-awesome-icon v-if="card.appLink" icon="fa-solid fa-link"></font-awesome-icon>
         {{ card.appLink }}
       </a>
     </div>
 
     <!-- Generates dynamically the link that leads to the project's repository -->
     <a :href="card.repo" class="cta-btn font-mono" target="_blank">
-      <i class="fa-solid fa-code-branch"></i> Github repository
+      <font-awesome-icon icon="fa-solid fa-code-branch"></font-awesome-icon> 
+      Github repository
     </a>
   </div>
 </template>

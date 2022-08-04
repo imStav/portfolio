@@ -10,22 +10,22 @@ import { RouterLink, RouterView } from "vue-router";
     <section class="fixed-nav">
       <nav class="navbar">
         <RouterLink to="/" class="nav-link" title="Home">
-          <i class="fa-solid fa-house"></i>
+          <font-awesome-icon icon="fa-solid fa-house"></font-awesome-icon>
           <span class="nav-link-extension">Home</span>
         </RouterLink>
 
         <RouterLink to="/portfolio" class="nav-link" title="My portfolio">
-          <i class="fa-solid fa-film"></i>
+          <font-awesome-icon icon="fa-solid fa-film"></font-awesome-icon>
           <span class="nav-link-extension">Portfolio</span>
         </RouterLink>
 
         <RouterLink to="/about" class="nav-link" title="About me">
-          <i class="fa-solid fa-circle-question"></i>
+          <font-awesome-icon icon="fa-solid fa-circle-question"></font-awesome-icon>
           <span class="nav-link-extension">About</span>
         </RouterLink>
 
         <RouterLink to="/contact" class="nav-link" title="Contact me">
-          <i class="fa-solid fa-comment-dots"></i>
+          <font-awesome-icon icon="fa-solid fa-comment-dots"></font-awesome-icon>
           <span class="nav-link-extension">Contact</span>
         </RouterLink>
       </nav>
