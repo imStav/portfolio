@@ -26,6 +26,10 @@
         @apply my-4;
     }
 
+    .nav-link:hover svg {
+        @apply text-cyan-500;
+    }
+
     .nav-link-extension {
         @apply hidden xl:inline xl:mx-1 hover:text-gradient hover:duration-300 hover:ease-in-out;
     }
@@ -84,7 +88,11 @@
         @apply text-gradient xl:text-current hover:text-gradient hover:duration-300 hover:ease-in-out;
     }
 
-    .app-link .teste {
+    .app-link:hover svg {
+        @apply text-cyan-500;
+    }
+
+    .app-link svg {
         @apply text-cyan-500 xl:text-slate-700 dark:xl:text-slate-500;
     }
 }

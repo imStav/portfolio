@@ -29,7 +29,7 @@ const getCards = cardStore();
       >
         <!-- If there's no link for an app in the store, it will 
         not show the link's icon, so it's not confusing in the UI -->
-        <font-awesome-icon v-if="card.appLink" icon="fa-solid fa-link" class="teste"></font-awesome-icon>
+        <font-awesome-icon v-if="card.appLink" icon="fa-solid fa-link"></font-awesome-icon>
         {{ card.appLink }}
       </a>
     </div>
