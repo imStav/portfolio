@@ -11,8 +11,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 /* import specific icons */
 import { faHouse, faFilm, faCircleQuestion, faCommentDots, faLink, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 
+import { faGoogle, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+
 /* add icons to the library */
-library.add(faHouse, faFilm, faCircleQuestion, faCommentDots, faLink, faCodeBranch);
+library.add(faHouse, faFilm, faCircleQuestion, faCommentDots, faLink, faCodeBranch, faGoogle, faLinkedinIn);
 
 import "./index.css";
 

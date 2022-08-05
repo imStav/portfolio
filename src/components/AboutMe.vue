@@ -44,6 +44,6 @@
   </div>
 
   <RouterLink to="/contact" class="cta-btn w-fit" title="Contact me">
-    <i class="fa-solid fa-comment-dots"></i> Contact me
+    <font-awesome-icon icon="fa-solid fa-comment-dots"></font-awesome-icon> Contact me
   </RouterLink>
 </template>

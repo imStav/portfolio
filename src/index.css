@@ -12,6 +12,10 @@
         @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-indigo-500;
     }
 
+    /* .-text-gradient {
+        @apply text-current hover:text-red-400;
+    } */
+
     /***Navbar***/
     .fixed-nav {
         @apply fixed top-0 w-full z-10;
@@ -23,11 +27,11 @@
 
     /**Navbar elements**/
     .nav-link {
-        @apply my-4 hover:text-gradient hover:duration-300 hover:ease-in-out;
+        @apply my-4;
     }
 
     .nav-link-extension {
-        @apply hidden xl:inline xl:mx-1;
+        @apply hidden xl:inline xl:mx-1 hover:text-gradient hover:duration-300 hover:ease-in-out;
     }
 
     /***Global views layout***/
@@ -82,6 +86,10 @@
     /*Links*/
     .app-link {
         @apply text-gradient xl:text-current hover:text-gradient hover:duration-300 hover:ease-in-out;
+    }
+
+    .app-link .teste {
+        @apply text-cyan-500 xl:text-slate-700 dark:xl:text-slate-500;
     }
 }
 

@@ -10,7 +10,7 @@ import { RouterLink, RouterView } from "vue-router";
     <section class="fixed-nav">
       <nav class="navbar">
         <RouterLink to="/" class="nav-link" title="Home">
-          <font-awesome-icon icon="fa-solid fa-house"></font-awesome-icon>
+          <font-awesome-icon icon="fa-solid fa-house" class="-text-gradient"></font-awesome-icon>
           <span class="nav-link-extension">Home</span>
         </RouterLink>
 
