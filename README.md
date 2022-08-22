@@ -10,6 +10,7 @@ This is my personal portfolio. It aims to provide a view on my work, side projec
 * ⚡ Vite (2.9.12)
 * 🍍 Pinia (2.0.14)
 * 🌈 Tailwind CSS (3.1.4)
+* 💫 Vue Motion (@vueuse/motion)
 * ✨ ESLint & Prettier
 * 🛰️ Netlify
 
@@ -25,4 +26,4 @@ This is my personal portfolio. It aims to provide a view on my work, side projec
 
 ### Thoughts
 
-> Even if my portfolio is deployed, at the moment it's still a work in progress. I'll nearly add i18n, and connect with github api to retrieve data automatically.
+> Thinking about connecting with Github API to retrieve data automatically.
