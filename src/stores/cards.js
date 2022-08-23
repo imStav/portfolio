@@ -57,6 +57,17 @@ export const cardStore = defineStore({
         prefix: "https://",
         appLink: "pop-undefined.netlify.app",
         repo: "https://github.com/imStav/popschool-undefined",
+      },
+
+      portfolioTemplate: {
+        name: "Portfolio template",
+        preview:
+          "/assets/screenshots/portfolio-template_dark_preview.png",
+        description:
+          "A free and open source portfolio template for developers that just look for a ready-to-go and minimal website. Based on VitePress.",
+        prefix: "",
+        appLink: "",
+        repo: "https://github.com/imStav/portfolio-template",
       }
     },
   }),
