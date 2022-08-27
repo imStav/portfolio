@@ -25,7 +25,6 @@ const getCards = cardStore();
       <a
         :href="`${card.prefix}${card.appLink}`"
         class="app-link font-mono my-3"
-        target="_blank"
       >
         <!-- If there's no link for an app in the store, it will 
         not show the link's icon, so it's not confusing in the UI -->
@@ -35,7 +34,7 @@ const getCards = cardStore();
     </div>
 
     <!-- Generates dynamically the link that leads to the project's repository -->
-    <a :href="card.repo" class="cta-btn font-mono" target="_blank">
+    <a :href="card.repo" class="cta-btn font-mono">
       <font-awesome-icon icon="fa-solid fa-code-branch"></font-awesome-icon> 
       Github repository
     </a>

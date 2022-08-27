@@ -4,7 +4,6 @@
       <a
         href="https://www.linkedin.com/in/steven-averlant/"
         title="Connect with me!"
-        target="_blank"
       >
         <font-awesome-icon icon="fa-brands fa-linkedin-in"></font-awesome-icon> Linkedin
       </a>
@@ -13,7 +12,7 @@
 
   <div class="contact-text">
     <div class="cta-btn w-fit">
-      <a href="mailto:saprocontact@gmail.com" title="Email me!" target="_blank">
+      <a href="mailto:saprocontact@gmail.com" title="Email me!">
         <font-awesome-icon icon="fa-brands fa-google"></font-awesome-icon> Gmail
       </a>
     </div>
