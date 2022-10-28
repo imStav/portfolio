@@ -11,7 +11,7 @@
         >
       </h1>
       <p class="text-2xl">
-        A Junior
+        A 
         <strong class="text-gradient font-heading">Front-End</strong> developer
       </p>
     </div>
