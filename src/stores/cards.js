@@ -68,6 +68,28 @@ export const cardStore = defineStore({
         prefix: "",
         appLink: "",
         repo: "https://github.com/imStav/portfolio-template",
+      },
+
+      nuxtContentBlog: {
+        name: "Nuxt Content Blog template",
+        preview:
+          "",
+        description:
+          "A Nuxt Content blog template. Based on Nuxt 3, Nuxt Content v2 and Tailwind CSS (+Tailwind Typography).",
+        prefix: "",
+        appLink: "",
+        repo: "https://github.com/imStav/nuxt-content-blog",
+      },
+
+      docDrivenBlog: {
+        name: "Document Driven Blog template",
+        preview:
+          "",
+        description:
+          "A Nuxt Content Blog, using the Document Driven mode. Made with Nuxt 3, Nuxt Content 2, Document Driven mode.",
+        prefix: "",
+        appLink: "",
+        repo: "https://github.com/imStav/doc-driven-blog",
       }
     },
   }),
