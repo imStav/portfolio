@@ -11,7 +11,8 @@ const getCards = cardStore();
 
     <div class="my-5">
       <!-- Generates dynamically the preview pictures and attributes -->
-      <img
+      <img 
+        v-if="card.preview"
         :src="card.preview"
         :title="`${card.name} preview`"
         :alt="`${card.name} preview`"
