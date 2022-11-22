@@ -73,7 +73,7 @@ export const cardStore = defineStore({
       nuxtContentBlog: {
         name: "Nuxt Content Blog template",
         preview:
-          "",
+          "/assets/screenshots/blog-screenshot-dark.PNG",
         description:
           "A Nuxt Content blog template. Based on Nuxt 3, Nuxt Content v2 and Tailwind CSS (+Tailwind Typography).",
         prefix: "",
