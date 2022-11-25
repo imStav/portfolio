@@ -90,6 +90,17 @@ export const cardStore = defineStore({
         prefix: "",
         appLink: "",
         repo: "https://github.com/imStav/doc-driven-blog",
+      },
+
+      sveltePage: {
+        name: "Svelte Page",
+        preview:
+          "",
+        description:
+          "A static web app template based on Svelte and powered by Vite. Keep the layouts, change the pictures, the texts, publish. ",
+        prefix: "",
+        appLink: "",
+        repo: "https://github.com/imStav/svelte-page",
       }
     },
   }),
