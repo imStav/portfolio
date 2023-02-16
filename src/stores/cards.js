@@ -80,28 +80,6 @@ export const cardStore = defineStore({
         appLink: "",
         repo: "https://github.com/imStav/nuxt-content-blog",
       },
-
-      docDrivenBlog: {
-        name: "Document Driven Blog template",
-        preview:
-          "",
-        description:
-          "A Nuxt Content Blog, using the Document Driven mode. Made with Nuxt 3, Nuxt Content 2, Document Driven mode.",
-        prefix: "",
-        appLink: "",
-        repo: "https://github.com/imStav/doc-driven-blog",
-      },
-
-      sveltePage: {
-        name: "Svelte Page",
-        preview:
-          "",
-        description:
-          "A static web app template based on Svelte and powered by Vite. Keep the layouts, change the pictures, the texts, publish. ",
-        prefix: "",
-        appLink: "",
-        repo: "https://github.com/imStav/svelte-page",
-      }
     },
   }),
 });
