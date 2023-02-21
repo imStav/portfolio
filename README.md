@@ -1,4 +1,4 @@
-# My Portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/4759f042-222c-4bfd-a86e-f3c1e0e5984c/deploy-status)](https://app.netlify.com/sites/steven-averlant/deploys)
+# My Portfolio (OLD VERSION)
 
 ## The project
 
@@ -20,10 +20,3 @@ This is my personal portfolio. It aims to provide a view on my work, side projec
   <source media="(prefers-color-scheme: dark)" srcset="/src/assets/screenshots/portfolio_dark-mode_preview.png">
   <img alt="Portfolio preview in light and dark color mode." src="/src/assets/screenshots/portfolio_light-mode_preview.png">
 </picture>
-
-### Visit my portfolio
-[steven-averlant.netlify.app](https://steven-averlant.netlify.app/)
-
-### Thoughts
-
-> Thinking about connecting with Github API to retrieve data automatically.
